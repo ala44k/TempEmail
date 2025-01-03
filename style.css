@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#email-display {
+  margin-top: 20px;
+}
+
+#email-address {
+  font-weight: bold;
+  color: #007bff;
+  margin: 10px 0;
+}
+
+.hidden {
+  display: none;
+}
+#messages {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+#message-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#message-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#message-list li:last-child {
+  border-bottom: none;
+}
